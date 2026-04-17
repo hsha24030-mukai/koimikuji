@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #e673a3;
+    font-family: "Arial", sans-serif; 
+}
+
+h1{
+    color:aqua;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ee78a9;
+    color:aquamarine;
+    border:black;
+    border-radius: 5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.result{
+    margin-top:20px;
+    font-size: 20px;
+}
