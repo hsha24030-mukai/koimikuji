@@ -1,11 +1,11 @@
 body {
     text-align: center;
-    background-color: #e673a3;
+    background-color: #82dbf7;
     font-family: "Arial", sans-serif; 
 }
 
 h1 {
-    color:rgb(130, 185, 247);
+    color:rgb(250, 161, 210);
 }
 
 button{
@@ -18,7 +18,7 @@ button{
     cursor:pointer;
 }
 button:hover{
-    background-color: rgb(201, 111, 201);
+    background-color: rgb(124, 238, 241);
 }
 .result{
     margin-top:20px;
