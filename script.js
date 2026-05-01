@@ -11,6 +11,13 @@ const result = document.getElementById("result");
 
 button.addEventListener("click",function(){
     const randomNember=Math.floor(Math.random()*fortunes.length);
+    const resultText = fortunes[(randomNember)];
 
     result.textContent=fortunes[(randomNember)];
+
+    if (resultText.includes("大吉")) {
+        result.style.color = "red";
+    }else if (resultText.includes("中吉")){
+        result.style.color = "green";
+    }
 });
